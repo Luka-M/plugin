@@ -5,7 +5,7 @@ module.exports = function startServer(port) {
 	const app = express()
 
 	app.get('/', (req, res) => {
-	  res.send('Hello World!')
+	  res.send('<h1><button>Do stuff</button><button>Do other stuff</button></h1>')
 	})
 
 	app.listen(port, () => {
